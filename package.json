@@ -1,0 +1,23 @@
+{
+  "name": "Javascript",
+  "version": "1.0.0",
+  "description": "Javascript Practices",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --color --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^15.1.1",
+    "jsdom-simulant": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mocha-sinon": "^2.1.0",
+    "sinon": "^7.3.2"
+  }
+}
