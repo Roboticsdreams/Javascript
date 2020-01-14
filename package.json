@@ -1,7 +1,7 @@
 {
-  "name": "Javascript",
+  "name": "javascript",
   "version": "1.0.0",
-  "description": "Javascript Practices",
+  "description": "Javascript workouts",
   "main": "app.js",
   "scripts": {
     "test": "mocha --color --recursive",
