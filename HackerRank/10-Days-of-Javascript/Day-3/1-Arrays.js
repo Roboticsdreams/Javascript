@@ -1,15 +1,16 @@
 module.exports = {
     getSecondLargest: function (nums) {
-        var biggest = nums[0];
-        var nextbiggest = nums[0];
-        for (var i = 0; i < nums.length; i++) {
-            if (nums[i] > biggest) {
-                nextbiggest = biggest;
-                biggest = nums[i];
-            }
-            else if (nums[i] > nextbiggest && nums[i] != biggest)
-                nextbiggest = nums[i];
+        let max = -Infinity, result = -Infinity;
+
+        for (const value of nums) {
+          const nr = Number(value)
+      
+          if (nr > max) {
+            [result, max] = [max, nr] // save previous max
+          } else if (nr < max && nr > result) {
+            result = nr; // new second biggest
+          }
         }
-        return nextbiggest;
+        return result;
     }
 };
