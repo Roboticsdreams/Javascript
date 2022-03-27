@@ -12,7 +12,7 @@ module.exports = {
             grade = 'D';
         } else if (score > 5 && score <= 10) {
             grade = 'E';
-        } else if (score >= 0 && score <= 5) {
+        } else if (score > 0 && score <= 5) {
             grade = 'F';
         }
         return grade;

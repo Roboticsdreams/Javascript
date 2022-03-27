@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha --color --recursive",
-    "coverage": "nyc --reporter=text mocha --color --recursive"
+    "coverage": "nyc --reporter=text mocha --color --recursive",
+    "htmlcoverage": "nyc --reporter=html mocha --color --recursive"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,7 @@
     "chai": "^4.2.0",
     "mocha": "^9.2.2",
     "mocha-sinon": "^2.1.0",
-    "nyc": "^15.0.0",
+    "nyc": "^15.1.0",
     "sinon": "^7.3.2"
   }
 }

@@ -8,6 +8,7 @@ describe('Day 2: Conditional Statement', function () {
         expect(app.getGrade(18)).to.be.equal('C');
         expect(app.getGrade(11)).to.be.equal('D');
         expect(app.getGrade(8)).to.be.equal('E');
-        expect(app.getGrade(5)).to.be.equal('F');
-    });
+        expect(app.getGrade(3)).to.be.equal('F');
+        expect(app.getGrade(-3)).to.be.equal(undefined);
+    })
 });
