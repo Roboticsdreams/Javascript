@@ -6,5 +6,6 @@ describe('Day 3: Throws', function () {
         expect(function () { app.isPositive(1) }).to.throw('YES');
         expect(function () { app.isPositive(0) }).to.throw('Zero Error');
         expect(function () { app.isPositive(-1) }).to.throw('Negative Error');
+        expect(function () { app.isPositive(-11) }).to.throw('Negative Error');
     })
 });

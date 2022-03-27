@@ -4,5 +4,6 @@ const app = require('../../../../HackerRank/10-Days-of-Javascript/Day-3/2-TryCat
 describe('Day 3: Try Catch and Finally', function () {
     it('Try Catch and Finally', function () {
         expect(app.reverseString('1234')).to.be.equal('4321');
+        expect(app.reverseString(1234)).to.be.equal(1234);
     });
 });
